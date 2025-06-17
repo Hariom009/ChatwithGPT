@@ -10,3 +10,5 @@
 Implementation 
 
 To use this project replace "Your_API_Key" with your api key for chatGPT and hit build.
+
+Huge thanks to - Berkay Veysel Ayköse for this project. 
