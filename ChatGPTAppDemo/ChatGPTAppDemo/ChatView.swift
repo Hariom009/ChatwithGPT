@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  ChatGPTAppDemo
-//
-//  Created by Berkay Veysel Ayköse on 9.04.2025.
-//
+
 import SwiftUI
 
 struct ChatView: View {
@@ -12,7 +7,7 @@ struct ChatView: View {
     var body: some View {
         VStack {
             // Başlık
-            Text("TerapistDemo")
+            Text("ChatwithGPT")
                 .font(.system(size: 28, weight: .bold, design: .rounded))
                 .foregroundColor(Color.green.opacity(0.7))
                 .padding(.top, 16)
@@ -31,7 +26,7 @@ struct ChatView: View {
 
             // Mesaj giriş alanı
             HStack(spacing: 10) {
-                TextField("Herhangi bir şey sor", text: $viewModel.currentInput)
+                TextField("Search Anything", text: $viewModel.currentInput)
                     .font(.system(size: 18))
                     .padding(12)
                     .background(Color(.systemGray5))
